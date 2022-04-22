@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">RickAndMortyCached</string>
+    <string name="app_name">RickAndMorty</string>
+    <string name="character_image">Character image</string>
+    <string name="load_error">Что-то пошло не так</string>
+    <string name="try_again">Повторить</string>
+
+    <string name="episodes_count">Кол-во эпизодов: %1$d</string>
+    <string name="species">Раса: %1$s</string>
+    <string name="gender">Пол: %1$s</string>
+    <string name="status">Статус: %1$s</string>
+    <string name="location">Последнее местоположение: %1$s</string>
 </resources>

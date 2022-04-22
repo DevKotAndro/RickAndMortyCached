@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/characters">
+
+    <fragment
+        android:id="@+id/characters"
+        android:name="com.shoshin.rickandmortycached.ui.characters.CharactersFragment"
+        android:label="Персонажи"
+        tools:layout="@layout/characters_fragment"
+        >
+<!--        <action-->
+<!--            android:id="@+id/toCharacter"-->
+<!--            app:destination="@+id/character"-->
+<!--            />-->
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/character"-->
+<!--        android:name="com.shoshin.rickandmorty.fragments.character.CharacterFragment"-->
+<!--        tools:layout="@layout/character_fragment"-->
+<!--        >-->
+<!--        <argument-->
+<!--            android:name="characterId"-->
+<!--            app:argType="integer"-->
+<!--            app:nullable="false"-->
+<!--            />-->
+<!--    </fragment>-->
+
+</navigation>
